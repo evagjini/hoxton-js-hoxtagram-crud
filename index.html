@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hoxtagram</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!-- logo -->
+    <img class="logo" src="assets/hoxtagram-logo.png" />
+
+    <section class="form-container">
+      <form class="comment-form new-post-form image-card">
+        <h2 class="title">New Post</h2>
+        <input
+          class="comment-input"
+          type="text"
+          name="title"
+          id="title"
+          placeholder="Add a title..."
+        />
+        <input
+          class="comment-input"
+          type="url"
+          name="image"
+          id="image"
+          placeholder="Add an image url..."
+        />
+        <button class="comment-button" type="submit">Post</button>
+      </form>
+    </section>
+
+    <!-- image cards -->
+    <section class="image-container"></section>
+    <script type="module" src="src/main.ts"></script>
+    
+  </body>
+</html>
